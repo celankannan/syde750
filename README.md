@@ -309,9 +309,11 @@ The REEM-C model is configured with:
 ---
 
 ## Author
+**Pranav Barot**  
+University of Waterloo
 
 **Chandrasekar Elankannan**  
-Humanoid Robotics Project | University of Waterloo
+University of Waterloo
 
 ---
 
