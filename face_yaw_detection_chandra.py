@@ -16,7 +16,12 @@ from openni import _openni2 as c_api
 
 #defining the dlib face detectors....
 detector=dlib.get_frontal_face_detector()# detect the frontal face  
-predictor=dlib.shape_predictor(r"C:\Users\CHANDRASEKAR\AppData\Local\Programs\Python\Python38\Scripts\shape_predictor_68_face_landmarks.dat")    
+import os
+# Path to dlib's 68-point landmark model. Download it from
+# http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 and unzip it,
+# then put it next to this script or set LANDMARK_MODEL to its path.
+MODEL_PATH = os.environ.get("LANDMARK_MODEL", os.path.join(os.path.dirname(os.path.abspath(__file__)), "shape_predictor_68_face_landmarks.dat"))
+predictor=dlib.shape_predictor(MODEL_PATH)    
 
 #initializing the pixel movement.....
 face_bottom=0
