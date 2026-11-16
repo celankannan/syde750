@@ -1,6 +1,6 @@
-# Vision-Based Speaker Tracking on a REEM-C Humanoid
+# Robot Simulation: Vision-Based Speaker Tracking on a REEM-C Humanoid
 
-A humanoid robot that works out **who is speaking** from vision alone and turns its head and torso toward them.
+A simulated REEM-C humanoid (Gazebo) that works out **who is speaking** from vision alone and turns its head and torso toward them.
 
 **Course:** SYDE 750 / ME 780 Humanoid Robotics, University of Waterloo, Winter 2022
 **Team:** Pranav Barot, Chandrasekar Elankannan
